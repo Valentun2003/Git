@@ -1,6 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body{
   background: yellow;
 }
-h3{
-  color: blueviolet;
+.header{
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.nav-bar{
+
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.nav__item{
+  list-style: none;
+}
+
+.nav__link{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.nav__link:hover{
+  background: grey;
+  font-size: 18px;
+  padding: 18px;
 }
